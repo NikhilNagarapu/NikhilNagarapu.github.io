@@ -22,6 +22,7 @@ class PostForm extends Component {
           editing:false
         }
         
+        
         this.props.dispatch({
             type:'ADD_POST',
             data});
